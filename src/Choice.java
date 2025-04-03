@@ -1,4 +1,4 @@
- abstract class Choice extends Korvkiosk{
+ abstract class Choice {
     protected String rarity;
     protected int reward;
 
@@ -7,4 +7,9 @@
         this.reward = reward;
     }
     public abstract void applyChoice(Player player);
+
+    @Override
+     public String toString() {
+        return "[" + rarity + "] - ger " + reward +"poäng";
+    }
 }
