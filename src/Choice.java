@@ -8,8 +8,5 @@
     }
     public abstract void applyChoice(Player player);
 
-    @Override
-     public String toString() {
-        return "[" + rarity + "] - ger " + reward +"poäng";
-    }
+
 }
