@@ -5,7 +5,7 @@
 
      public void applyChoice(Player player){
          player.money += reward;
-         System.out.println("Du valde money! " + reward + "money");
+         System.out.println("Du valde money! " + reward + " money");
      }
  }
 

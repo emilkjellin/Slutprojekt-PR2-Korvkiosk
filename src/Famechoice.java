@@ -5,6 +5,6 @@ class Famechoice extends Choice {
 
      public void applyChoice(Player player){
         player.fame += reward;
-        System.out.println("Du valde fame! " + reward + "fame");
+        System.out.println("Du valde fame! " + reward + " fame");
     }
 }
