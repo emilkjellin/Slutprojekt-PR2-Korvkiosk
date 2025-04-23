@@ -6,7 +6,7 @@
         this.rarity = rarity;
         this.reward = reward;
     }
-    public abstract void applyChoice(Player player);
+    public abstract void applyChoice(Player player);// så att man ska kunna nämna denna i choice.
 
 
 }

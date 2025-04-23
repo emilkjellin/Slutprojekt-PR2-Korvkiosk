@@ -9,7 +9,8 @@ public class Main {
             Player player = new Player();
             try{
                 for (int i = 0; i < 5;i++){
-                Choice choice =Korvkioskspel.getRandomChoice();
+
+                Choice choice =Korvkioskspel.getRandomChoice(); //Denna kod skapar ett val och vilken rarity valet är
                     System.out.println(choice);
                     System.out.println("vill du ha detta ja / nej)");
                     String val = scan.nextLine();
